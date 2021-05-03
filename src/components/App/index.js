@@ -7,10 +7,11 @@ import './styles.scss';
 // == Import Composant
 import Main from 'src/components/Main';
 
+import skills from 'src/data/skills';
 // == Composant
 const App = () => (
   <div className="app">
-    <Main/>
+    <Main skills={skills}/>
   </div>
 );
 

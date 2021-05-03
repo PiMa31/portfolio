@@ -5,10 +5,11 @@ import './main.scss'
 import Header from 'src/components/Header';
 import Skills from 'src/components/Skills';
 
-const Main = () => (
+const Main = ({skills}) => 
+(
     <div className="main">
         <Header />
-        <Skills />
+        <Skills skills={skills.langages}/>
     </div>
 );
 
