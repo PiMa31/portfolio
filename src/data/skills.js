@@ -4,8 +4,6 @@ export default {
         'CSS',
         'Javascript',
         'PHP',
-    ],
-    frameworks : [
         'Bootstrap',
         'React JS',
         'Redux',

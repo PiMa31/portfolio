@@ -1,22 +1,30 @@
 import React from 'react';
-
 import './skills.scss';
 
-const Skills = ({ skills }) =>
-(
+const Skills = () => (
+  <>
+    <h2>Compétences</h2>
     <div className="skills">
-        Compétences
-        <ul className="skills__langages">
-            {
-                skills.map((skill) => (
-                    <li key={skill}>{skill}</li>
-                ),
-                )
-            }
+      <div className="skills__langages">
+        <h3>Langages</h3>
+        <ul className="skills__langages--ul">
+          <li className="skills__items">HTML</li>
+          <li className="skills__items">CSS</li>
+          <li className="skills__items">Javascript</li>
+          <li className="skills__items">PHP</li>
         </ul>
-
-
+      </div>
+      <div className="skills__langages">
+        <h3>Framework/Librairies</h3>
+        <ul className="skills__langages--ul">
+          <li className="skills__items">Bootstrap</li>
+          <li className="skills__items">React JS</li>
+          <li className="skills__items">Redux</li>
+        </ul>
+      </div>
     </div>
+    <hr></hr>
+  </>
 );
 
 export default Skills;

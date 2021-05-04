@@ -4,12 +4,14 @@ import './main.scss'
 
 import Header from 'src/components/Header';
 import Skills from 'src/components/Skills';
+import Realisations from 'src/components/Realisations';
 
-const Main = ({skills}) => 
+const Main = () => 
 (
     <div className="main">
         <Header />
-        <Skills skills={skills.langages}/>
+        <Skills />
+        <Realisations />
     </div>
 );
 
