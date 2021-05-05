@@ -8,10 +8,10 @@ const Skills = () => (
       <div className="skills__langages">
         <h3>Langages</h3>
         <ul className="skills__langages--ul">
-          <li className="skills__items">HTML</li>
-          <li className="skills__items">CSS</li>
+          <li className="skills__items">HTML / CSS</li>
           <li className="skills__items">Javascript</li>
-          <li className="skills__items">PHP</li>
+          <li className="skills__items">PHP (MVC, POO)</li>
+          <li className="skills__items">MySQL</li>
         </ul>
       </div>
       <div className="skills__langages">

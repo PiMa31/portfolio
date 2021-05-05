@@ -15,7 +15,6 @@
     margin-top: 2rem;
 
     &__picture {
-        background-image: url(logo.png);
         width: 100%;
         height: 100px;
         background-size: contain;
@@ -25,7 +24,7 @@
         border-top-right-radius: 10px;
         overflow: hidden;
         opacity: 0.75;
-        border-bottom: 1px solid #f39c12;
+        border-bottom: 1px solid #579445;
     }
     &__content {
         background: white;
@@ -40,7 +39,7 @@
 
         &--badge {
             position: absolute;
-            background: #f39c12;
+            background: #579445;
             border-radius: 20px;
             color: white;
             top:-10px;
@@ -70,7 +69,7 @@
         }
         &--footer a {
             display: inline-block;
-            background: #3498db;
+            background: #579445;
             color: white;
             font-size: 12px;
             border-radius: 20px;
@@ -81,7 +80,18 @@
     }
 }
 
-
+#nidbijoux {
+    background-image: url(picture/logo.png);
+}
+#todolist {
+    background-image: url(picture/liste-de-controle.png);
+}
+#meteo {
+    background-image: url(picture/la-meteo.png);
+}
+#github {
+    background-image: url(picture/GitHub-Mark-64px.png);
+}
 
 @media screen and (max-width: 500px) {
     .realisations {

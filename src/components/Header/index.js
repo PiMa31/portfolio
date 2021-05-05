@@ -1,19 +1,17 @@
 import React from 'react';
 
-import './styles.scss';
+import './header.scss';
 
 const Header = () => (
     <div className="header">
         <img className="header__picture"/>
         <h1 className="header__fullname">Pierre MASSET</h1>
         <h2 className="header__job">Développeur Web spécialisé en REACT JS</h2>
-        <p>Hello, je suis <strong id="person-firstname">Pierre MASSET</strong>, <strong id="person-position">Développeur full-stack</strong> spécialisé en <strong id="person-speciality">REACT JS</strong> actuellement <strong id="person-company">en recherche</strong> aux alentours de  <strong id="person-city">Toulouse</strong>.</p>
-        <div>
-            <a className="header__button" target="_blank" id="person-email" href="mailto:pierremasset31@gmail.com">M'envoyer un email</a>
-            <span className="or"> ou </span>
-            <a target="_blank" className="header__button" href="#">Voir mon CV</a>
-        </div>
-        <hr></hr>
+        <p className="header__p">Passionné d'informatique et de jeux vidéos depuis la sortie de la Nintendo 64 (depuis un long moment...), j'ai choisi de m'épanouir dans le milieu du développement </p>
+        <br></br>
+        <p className="header__p">Suite à ma formation à l'école O'Clock et mon passage du titre professionnel, je suis à la recherche de toutes opportunités me permettant d'approfondir mes connaissances et d'évoluer.</p>
+        <br></br>
+        <p className="header__p">Vous cherchez quelqu'un de calme, réfléchi, capable de s'adapter en toutes circonstances et avec un fort esprit d'équipe, alors vous pouvez cliquer dessous et me contacter. Vous cherchez un autre profil, vous pouvez aussi cliquer et je m'adapterais 😁</p>
     </div>
 );
 
