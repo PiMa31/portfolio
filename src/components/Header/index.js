@@ -11,7 +11,7 @@ const Header = () => (
         <br></br>
         <p className="header__p">Suite à ma formation à l'école O'Clock et mon passage du titre professionnel, je suis à la recherche de toutes opportunités me permettant d'approfondir mes connaissances et d'évoluer.</p>
         <br></br>
-        <p className="header__p">Vous cherchez quelqu'un de calme, réfléchi, capable de s'adapter en toutes circonstances et avec un fort esprit d'équipe, alors vous pouvez cliquer dessous et me contacter. Vous cherchez un autre profil, vous pouvez aussi cliquer et je m'adapterais 😁</p>
+        <p className="header__p">Vous cherchez quelqu'un de calme, réfléchi, capable de s'adapter en toutes circonstances et avec un fort esprit d'équipe, alors vous pouvez cliquer dessous et me contacter. Vous cherchez un autre profil, vous pouvez aussi cliquer et je m'adapterai 😁</p>
     </div>
 );
 
