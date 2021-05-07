@@ -50,6 +50,7 @@
   "dependencies": {
     "prop-types": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "react-reveal": "^1.2.2"
   }
 }
