@@ -27,7 +27,7 @@ const Realisations = () => (
             <p className="realisation__content--title">Todo List</p>
             <p className="realisation__content--description">Réalisé en formation, application de gestions de tâches</p>
             <div className="realisation__content--footer">
-              <a href="#" target="_blank">En savoir plus</a>
+              <a href="https://todolist-pierre-masset.netlify.app/" target="_blank">Voir l'app</a>
             </div>
           </div>
         </div>
