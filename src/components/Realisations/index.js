@@ -40,7 +40,7 @@ const Realisations = () => (
             <p className="realisation__content--title">Météo</p>
             <p className="realisation__content--description">Application météo</p>
             <div className="realisation__content--footer">
-              <a href="#" target="_blank">En savoir plus</a>
+              <a href="#" target="_blank">En cours de dev</a>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ const Realisations = () => (
             <p className="realisation__content--title">Repo Github</p>
             <p className="realisation__content--description">Application de recherche de repository grâce à l'API de Github</p>
             <div className="realisation__content--footer">
-              <a href="#" target="_blank">En savoir plus</a>
+              <a href="#" target="_blank">En cours de dev</a>
             </div>
           </div>
         </div>
