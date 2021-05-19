@@ -5,7 +5,7 @@ import './parcours.scss';
 const Parcours = () => (
   <>
     <h2>Parcours</h2>
-    <Slide bottom>
+    <Slide bottom delay={300}>
       <div className="parcours">
         <div className="parcours__step">
           <p className="parcours__step--title">Projet de fin de formation -- Février 2020</p>

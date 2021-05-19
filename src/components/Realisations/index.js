@@ -6,7 +6,7 @@ const Realisations = () => (
   <>
     <h2>Réalisations</h2>
     <div className="realisations">
-      <Fade left>
+      <Fade left delay={300}>
         <div className="realisation" >
           <div className="realisation__picture" id="nidbijoux"></div>
           <div className="realisation__content">
@@ -19,7 +19,7 @@ const Realisations = () => (
           </div>
         </div>
       </Fade>
-      <Fade right>
+      <Fade right delay={300}>
         <div className="realisation" >
           <div className="realisation__picture" id="todolist"></div>
           <div className="realisation__content">
@@ -32,7 +32,7 @@ const Realisations = () => (
           </div>
         </div>
       </Fade>
-      <Fade left>
+      <Fade left delay={300}>
         <div className="realisation" >
           <div className="realisation__picture" id="meteo"></div>
           <div className="realisation__content">
@@ -45,7 +45,7 @@ const Realisations = () => (
           </div>
         </div>
       </Fade>
-      <Fade right>
+      <Fade right delay={300}>
         <div className="realisation" >
           <div className="realisation__picture" id="github"></div>
           <div className="realisation__content">
